@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    position: relative;
+    overflow: hidden;
+}
+#main nav {
+    /* border: 2px solid black; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    margin-top: 1.2%;
+    /* justify-content: space-evenly; */
+    /* background-color: #000; */
+    /* background-color: black; */
+    /* background-color: rgb(185, 194, 222); */
+    
+}
+
+#main nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 15%;
+    text-transform: none;
+ 
+}
+#main nav ul li{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+#main nav button {
+    width: 10%;
+    height: 40px;
+    padding: 5px 5px;
+    margin-left: 4%;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#main nav input {
+    margin-left: 4%;
+    height: 26px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+#main nav i {
+    margin-left: 0.5%;
+}
+#main nav i:hover {
+    cursor: pointer;
+}
+nav ul li:hover{
+    cursor: pointer;
+    scale: 1.5;
+    color: brown;
+}
+nav button {
+    transition: background-color 0.5s ease-in-out 0.1s;
+}
+nav button:hover{
+    cursor: pointer;
+    background-color: rgb(90, 85, 85);  
+}
+#page1 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+    /* background-color: rgb(161, 124, 87); */
+}
+#page1 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* #page1 video {
+    max-width: 100vw;
+    max-height: 100vh;
+} */
+
+
+#page1-cont{
+    text-transform: uppercase;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: white;
+  
+}
+#page2 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;  
+    background: linear-gradient(to right top, #D16BA5,#86A8E7,#5FFBF1);
+}
+#page2-cont {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: rgb(242, 233, 215);
+    /* border: 2px solid red; */
+    height: 35%;
+    z-index: 3;
+    
+}
+#page2-cont h1 {
+    
+    text-align: center;
+    margin-right: 10%;
+    font-size: 45px;
+    background: linear-gradient(to left,rgb(3, 3, 93),rgb(5, 5, 101),rgb(38, 38, 180), rgb(223, 68, 68),rgb(206, 89, 89), rgb(224, 76, 101));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#page2-img1 {
+    position: relative;
+    top: 7%;
+    left: -18%;
+    height: 37%;
+    width: 13%;
+    border-radius: 5px;
+}
+#page2-img2 {
+    position: absolute;
+    top: 7%;
+    right: 9%;
+    height: 37%;
+    width: 20%;
+    border-radius: 5px;
+}
+#page2-img3 {
+    position: relative;
+    top: 47%;
+    left: -25%;
+    height: 37%;
+    width: 13%;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+#page2-btn1 {
+    position: relative;
+    top: 22%;
+    left: 33.5vw;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: white;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 13px;
+    font-weight: bold;
+    z-index: 4;
+}
+#page2-btn2 {
+    position: relative;
+    top: 22%;
+    left: 34vw;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: white;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 13px;
+    font-weight: bold;
+    z-index: 4;
+}
+#page2 button {
+    transition: all 0.5s ease-in-out 0.1s;
+}
+#page2 button:hover{
+    cursor: pointer;
+    background-color: rgb(22, 22, 139);
+    color: #fff;
+
+}
